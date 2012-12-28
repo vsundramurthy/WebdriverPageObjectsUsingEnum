@@ -13,7 +13,7 @@ Webdriver community uses the same approach for their page objects. Loadable comp
 is another implementation designed to solve this problem in a different way,
 it shares a lot of ideas from the traditional one, you can read more on that 
 here http://code.google.com/p/selenium/wiki/LoadableComponent Ok let's look at the problems,
-using these patterns creates a lot of duplicet code, too many methods, too many locator definitions,
+using these patterns creates a lot of duplicate code, too many methods, too many locator definitions,
 hard to read.
 
 ##A New Solution
