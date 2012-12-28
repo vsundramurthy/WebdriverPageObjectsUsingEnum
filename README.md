@@ -82,7 +82,7 @@ public class HomePage {
 ##Using Enum page object in a Webdriver Test
 ```java
 public class HomePageTest {
- public void testHomePageLink() {
+ public void testPrivacyLink() {
    driver.get('http://example.com');
    HomePage.Link.PRIVACY.click(driver);
  }
