@@ -8,7 +8,7 @@ these language to build automation, then we should implement some kind of page o
 designs for defining our web pages as an objects. Today there are few page object design patterns
 in use, the traditional one, which models a webpage as a Class, elements as properties and
 web actions as methods. This design exists from the beginning of
-the Webdriver era and it still servers a lot of folks. Approximately 60% of the 
+the Webdriver era and it still servers a lot of folks. Approximately 80% of the 
 Webdriver community uses the same approach for their page objects. Loadable component
 is another implementation designed to solve this problem in a different way,
 it shares a lot of ideas from the traditional one, you can read more on that 
