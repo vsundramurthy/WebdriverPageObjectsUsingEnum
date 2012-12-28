@@ -16,7 +16,7 @@ here http://code.google.com/p/selenium/wiki/LoadableComponent Ok let's look at t
 using these patterns creates a lot of duplicet code, too many methods, too many locator definitions,
 hard to read.
 
-##Our Solution
+##A New Solution
 Page Objects using Enum approach is a new idea. A new design and model for solving the same problem.
 This design is not limited to Java Enum. This idea can be implemented on any Webdriver binding
 that supports Enum pattern. In Enum Page Object model we create Classes for webpages,
