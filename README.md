@@ -78,6 +78,25 @@ public class HomePage {
 }
 
 ```
+
+##Using Enum page object in a Webdriver Test
+```java
+public class HomePageTest {
+ public void testHomePageLink() {
+   driver.get('http://example.com');
+   HomePage.Link.PRIVACY.click(driver);
+ }
+ 
+ public void testAllLinks() {
+   driver.get('http://example.com');
+   for (Link lnk : HomePage.Link.values()) {
+    assertNonEmpty(lnk.getLinkText());
+   }
+ }
+ 
+}
+
+```
 ##License
 (The MIT License)
 
