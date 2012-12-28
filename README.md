@@ -93,7 +93,6 @@ public class HomePageTest {
     assertNonEmpty(lnk.getLinkText());
    }
  }
- 
 }
 
 ```
