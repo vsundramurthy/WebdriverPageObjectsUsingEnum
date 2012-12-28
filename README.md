@@ -6,7 +6,7 @@ Today Webdriver is a most successful tool for browser automation. Webdriver has 
 for multiple programming languages such as JAVA, PERL, and PHP etc. If we use any of
 these language to build automation, then we should implement some kind of page object
 designs for defining our web pages as an objects. Today there are few page object design patterns
-in use, the traditional one, which models a webpage as Classe, elements as properties and
+in use, the traditional one, which models a webpage as a Class, elements as properties and
 web actions as methods. This design exists from the beginning of
 the Webdriver era and it still servers a lot of folks. Approximately 60% of the 
 Webdriver community uses the same approach for their page objects. Loadable component
@@ -78,3 +78,13 @@ public class HomePage {
 }
 
 ```
+##License
+(The MIT License)
+
+Copyright (c) 2009-2012 Venkatesan Sundramurthy <venkatesan.sundramurthy@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
