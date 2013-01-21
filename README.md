@@ -3,7 +3,7 @@
 
 ##Problem Definition
 Today Webdriver is a most successful tool for browser automation. Webdriver has bindings
-for multiple programming languages such as JAVA, PERL, and PHP etc. If we use any of
+for multiple programming languages such as JAVA, Ruby, Python, JavaScript, PHP and C#. If we use any of
 these language to build automation, then we should implement some kind of page object
 designs for defining our web pages as an objects. Today there are few page object design patterns
 in use, the traditional one, which models a webpage as a Class, elements as properties and
